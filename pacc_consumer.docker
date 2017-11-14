@@ -1,0 +1,1 @@
+docker run -it --privileged --cap-add SYS_ADMIN --cap-add SYS_RESOURCE --device /dev/fuse -p 10080:8080  -e MAPR_CLDB_HOSTS=192.168.99.101 -e MAPR_CLUSTER=my.cluster.com -e MAPR_CONTAINER_USER=mapr -e MAPR_MOUNT_PATH=/mapr -i -t mapr-web-consumer

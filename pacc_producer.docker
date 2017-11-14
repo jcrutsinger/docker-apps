@@ -1,0 +1,1 @@
+docker run -it -e MAPR_CLDB_HOSTS=192.168.99.101 -e MAPR_CLUSTER=my.cluster.com -e MAPR_CONTAINER_USER=mapr -i -t mapr-sensor-producer
